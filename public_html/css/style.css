@@ -1,1 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff4e6;
+    color: #2f4f4f;
+}
+
+header {
+    background-color: #98ff98;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #2f4f4f;
+}
+
+#search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-bar button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+#featured-recipes, #recipe-categories, #call-to-action {
+    margin-bottom: 40px;
+}
+
+.recipe-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#call-to-action button {
+    background-color: #4169e1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2f4f4f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
 

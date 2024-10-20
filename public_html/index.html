@@ -9,26 +9,25 @@
 <body>
 
     <header>
-        <img src="img/logo.png" alt="RecipeSphere Logo" id="logo">
-        <div class="navbar">
-            <div class="search-container">
-                <input type="text" placeholder="Search for recipes...">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Explore Recipes</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropbtn">Profile</a>
-                        <div class="dropdown-content">
-                            <a href="#">Log In</a>
-                            <a href="#">Upload a Recipe</a>
-                            <a href="#">Favorites</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
+        <div id="search-bar">
+            <input type="text" placeholder="Search for recipes...">
+            <button type="button">Search</button>
         </div>
+        <img src="img/logo.png" alt="RecipeSphere Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#recipes">Explore Recipes</a></li>
+                <li class="dropdown">
+                    <a href="#">Profile</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Log In</a></li>
+                        <li><a href="#">Upload a Recipe</a></li>
+                        <li><a href="#">Favorites</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>

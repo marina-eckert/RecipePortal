@@ -1,2 +1,1 @@
-# RecipePortal
-https://marina-eckert.github.io/RecipePortal/public_html/
+# NEW VERSION - https://github.com/marina-eckert/Recipe-Portal-new
